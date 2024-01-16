@@ -10,7 +10,7 @@ h1{
 }
 
 .box{
-    margin:5% 0% 5% 0%;
+    margin:2% 0% 5% 0%;
     /* background-color: aqua; */
     height: 300px;
 }
@@ -23,6 +23,7 @@ h1{
    float: left;
    position: relative;
    overflow: hidden;
+   border: 2px solid black;
 }
 
 .title1,.title2,.title3{
@@ -33,11 +34,16 @@ h1{
     display: inline;
     position: absolute;
     right: 0;
+    /* border: ; */
+    border-bottom:2px solid black ;
+    border-left: 2px solid black;
+
 }
 
 .content1,.content2,.content3{
     margin: 2% 4% 0 4%;
     margin-top: 15% ;
+    margin-bottom: 2%;
 }
 
 .title2{
